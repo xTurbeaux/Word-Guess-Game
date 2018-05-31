@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TheHangmanGame</title>
+
+		<link rel="icon" type="image/png" href="./assets/images/front.jpg">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	</head>
+	<body>
+		<div id="main-content">
+                
+			
+			<div id="title">
+                <pre><p> Welcome to the HangMan Game!</p></pre>
+                <pre><p>Hint.. Think Pink!!</p></pre>
+				
+			</div>
+
+			<div id="instruction">
+				
+				<pre><p>Press A Key to Begin</p></pre>
+				
+				
+			</div>
+
+			<div id=alerts>
+				<pre><p>* <span class="alert-line"></span> *</p></pre>
+				<pre><p>* <span class="alert-line"></span> *</p></pre>
+				<pre><p>* <span class="alert-line"></span> *</p></pre>
+				<pre><p>* <span class="alert-line"></span> *</p></pre>
+				<pre><p>* <span class="alert-line"></span> *</p></pre>
+				
+			</div>
+
+			<div id="game-div" class="panel">
+				<div id="word-display">
+					<p id="word-display-letters"></p>
+				</div>
+
+				<div id="general-display">
+					<pre><p>                 *Chosen Letters*                    </p></pre>
+					<pre><p>| <span id="guessed-letters">                                                   </span> |</p></pre>
+					<pre><p>                     *Stats*                         </p></pre>
+					<pre><p>| Incorrect Letters: <span id="error-count"></span> |</p></pre>
+					<pre><p>| Wins: <span id="win-count"></span> |</p></pre>
+					<pre><p>| Losses: <span id="loss-count"></span> |</p></pre>
+					<pre><p>                                                     </p></pre>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	</body>
+</html>
